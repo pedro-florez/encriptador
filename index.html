@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title> Encriptador de Texto </title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<main>
+
+		<section class="logo">
+
+			<img src="assets/img/logo.png" alt="logotipo">
+
+		</section>
+		
+		<section class="entrada__texto">
+
+			<textarea
+			id="entrada-texto"
+			cols="42" 
+			rows="10" 
+			placeholder="Ingresar texto..."></textarea>
+
+		</section>
+
+		<section class="salida__texto">
+
+			<img id="imagen" src="assets/img/muñeco.png" alt="Muñeco">
+
+			<h2 id="mensaje-404">Ningún mensaje fue encontrado</h2>
+
+			<textarea 
+			id="salida-texto"
+			cols="25" 
+			rows="20" 
+			placeholder="Ingresar texto..." style="display: none;"></textarea>
+			
+			<button id="btnCopiar" style="display: none;">
+				Copiar
+			</button>
+
+		</section>
+
+		<section class="acciones">
+
+			<div class="info">
+				<img src="assets/img/info.png" alt="Icono de información">
+				Solo letras minúsculas y sin acentos
+			</div>
+
+			<div class="botones">
+
+				<button id="encriptar">
+					Encriptar
+				</button>
+	
+				<button id="desencriptar">
+					Desencriptar
+				</button>
+
+			</div>				
+
+		</section>
+
+	</main>
+
+	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>
